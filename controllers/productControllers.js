@@ -3,7 +3,7 @@ import products from "../models/productModels.js";
 
 export const createProduct = async (req, res,next) => {
     
-    const product = await products.create(req.body);
+    const product =  products.create(req.body);
 
     res.status(201).json({
         success: true,

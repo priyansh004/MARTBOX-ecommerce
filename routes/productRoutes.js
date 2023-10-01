@@ -7,5 +7,5 @@ router.route("/products").get(getProductController);
 router.route("/product/new").post(createProduct);
 
 
-
-export { router };
+``
+export  {router as productRoutes};
